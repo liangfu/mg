@@ -526,7 +526,7 @@ searchtag(char *tok)
  * This is equivalent to filevisit from file.c.
  * Look around to see if we can find the file in another buffer; if we
  * can't find it, create a new buffer, read in the text, and switch to
- * the new buffer. *scratch*, *grep*, *compile* needs to be handled 
+ * the new buffer. *scratch*, *grep*, *compilation* needs to be handled
  * differently from other buffers which have "filenames".
  */
 int
